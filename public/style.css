@@ -4,13 +4,23 @@ body {
 }
 
 .navi {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    position: fixed;
+    right: 0px;
+    text-align: right;
+   text-shadow: 2px 2px 4px #FFFFFF;
 
 }
+
+    .navi a {
+        color: black !important;
+    }
 
     .first {
         width: 100%;
         height: 740px;
-        background-image: url("backG.jpg");;
+        background-image: url("/images/backG.jpg");
     }
 
     #imageClipper {
@@ -46,6 +56,7 @@ body {
         font-size: 7em;
         font-family: 'Press Start 2P', cursive;
         text-shadow: 0 1px 0 hsl(174, 5%, 80%),
+
         0 2px 0 hsl(174, 5%, 75%),
         0 3px 0 hsl(174, 5%, 70%),
         0 4px 0 hsl(174, 5%, 66%),
@@ -62,10 +73,10 @@ body {
         0 20px 20px rgba(0, 0, 0, .3);
     }
 
-    #four {
+    .four {
         text-align: center;
         width: 100%;
-        background-image: url("chex.png");
+        background-image: url("/images/chex.png");
         bottom:0;
         color: black;
         background-color: #000000;
@@ -96,7 +107,7 @@ body {
 
 
     #six {
-        float: right;
+        left: 20px;
         color: black;
         text-align: center;
         display: inline-block;

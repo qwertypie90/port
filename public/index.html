@@ -25,25 +25,24 @@
 </head>
 
 <body>
+
     <!-- navi -->
     <div class="navi">
-  <a href="#home" class="active">Home</a>
-  <a href="#about">About</a>
-  <a href="#portfolio">Portfolio</a>
-  <a href="#about">Contact</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-
-
+        <a href="#home" class="active">Home</a><br>
+        <a href="#about">About</a><br>
+        <a href="#portfolio">Portfolio</a><br>
+        <a href="#contact">Contact</a>
+    </div>
 
     <!-- vid intro div(s) -->
-    <div class="first">
+    <section id="home" class="first">
         <div id="imageClipper">
-            <video loop muted autoplay poster="chex.png" class="two" width="740" height="460">
-                <source src="nLights.mp4" type="video/mp4">
+            <video loop muted autoplay poster="images/chex.png" class="two" width="740" height="460">
+                <source src="images/nLights.mp4" type="video/mp4">
             </video>
         </div>
-    </div>
+    </section>
+
     <!-- about div -->
     <section id="about" class="three">
         <br> Meet
@@ -55,82 +54,60 @@
         <br>
         <br>
         <br> Lindsey got her start coding by charging friends to 'pimp' out their myspace profiles in 7th grade.
-</section>
+    </section>
 
     <!-- portfolio div -->
-    <section id="portfolio">
-        <div class="col-lg-12 col-md-12 col-sm-12" id="four">
+<section id="portfolio" class="four">
             <br>
             <h2>Portfolio</h2>
             <br>
             <div class="content">
-                <img src="errands.png" alt="ErrandsBizLogo" width="200" height="200">
+                <img src="images/errands.png" alt="ErrandsBizLogo" width="200" height="200">
                 <h5>Errands 24/7</h5>
                 <p><a href="https://arcane-brook-67012.herokuapp.com/">Demo</a></p>
                 <p><a href="https://github.com/qwertypie90/errands247">Github</a></p>
             </div>
             <div class="content">
-                <img src="filmmaker.png" alt="FilmmakerPic" width="200" height="200">
+                <img src="images/filmmaker.png" alt="FilmmakerPic" width="200" height="200">
                 <h5>Filmmaker Site</h5>
                 <p><a href="https://stark-oasis-62072.herokuapp.com/">Demo</a></p>
                 <p><a href="https://github.com/qwertypie90/filmmaker-website">Github</a></p>
             </div>
             <div class="content">
-                <img src="giphy.png" alt="SpacePic" width="200" height="200">
+                <img src="images/giphy.png" alt="SpacePic" width="200" height="200">
                 <h5>Giphy-API</h5>
                 <p><a href="https://qwertypie90.github.io/giphy-api/">Demo</a></p>
                 <p><a href="https://github.com/qwertypie90/giphy-api">Github</a></p>
             </div>
             <div class="content">
-                <img src="hpTrivia.png" alt="SolemnlySwearHP" width="200" height="200">
+                <img src="images/hpTrivia.png" alt="SolemnlySwearHP" width="200" height="200">
                 <h5>Trivia Game</h5>
                 <p><a href="https://qwertypie90.github.io/TriviaGame/">Demo</a></p>
                 <p><a href="https://github.com/qwertypie90/TriviaGame">Github</a></p>
-                
             </div>
             <div class="content">
-                <img src="errands.png" alt="TBD" width="200" height="200">
+                <img src="images/errands.png" alt="TBD" width="200" height="200">
                 <h4>TBD</h4>
                 <p><a href="https://arcane-brook-67012.herokuapp.com/">Demo</a></p>
                 <p><a href="https://github.com/qwertypie90/errands247">Github</a></p>
             </div>
-
-        </div>
     </section>
 
-
     <!-- social/follow div -->
-    <div class="row" id="six">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-<center>
-<h2>Adios!</h2>
-<h4> Keep up with me and my tech journey below! </h4>
-
-                <a href="https://www.linkedin.com/in/lindsey-mcdowell/"><p style="float: left; font-size: 9pt; text-align: center; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"><img src="linkedin.png" style="width: 100%">linkedIn</a></p>
-
-                <a href="https://qwertycoder.wordpress.com/"><p style="float: left; font-size: 9pt; text-align: center; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"><img src="wordpress.png" style="width: 100%">my blog</a></p>
-
-                <a href="mailto:lindseymcd@me.com?Subject=Hello%20Lindsey!" target="_top"><p style="float: left; font-size: 9pt; text-align: center; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"><img src="email.png" style="width: 100%">email</a></p>
-</center>
-
-        </div>
-    </div>
-
-    <script>
-
-2
-3
-4
-5
-6
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
+    <section id="contact">
+        <div class="col-lg-12 col-md-12 col-sm-12" id="six">
+                <center>
+                    <h2>Adios!</h2>
+                    <h4> Keep up with me and my tech journey below! </h4>
+                    
+                        <p style="float: left; font-size: 9pt; text-align: center; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"><a href="https://www.linkedin.com/in/lindsey-mcdowell/"><img src="images/linkedin.png" style="width: 100%">linkedIn</p></a>
+                    
+                        <p style="float: left; font-size: 9pt; text-align: center; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"><a href="https://qwertycoder.wordpress.com/"><img src="images/wordpress.png" style="width: 100%">my blog</p></a>
+                    
+                        <p style="float: left; font-size: 9pt; text-align: center; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"><a href="mailto:lindseymcd@me.com?Subject=Hello%20Lindsey!" target="_top"><img src="images/email.png" style="width: 100%">email</p></a>
+                </center>
+            </div>
+    </section>
 
 </body>
-
 </html>
