@@ -1,0 +1,181 @@
+                html,
+                body {
+                    width: 100%;
+                }
+
+                .navi {
+                    font-family: 'Press Start 2P', cursive;
+                    font-size: 15px;
+                    position: fixed;
+                    right: 0px;
+                    text-align: right;
+                    text-shadow: 2px 2px 4px #FFFFFF;
+                      z-index: 10;
+                }
+
+                .navi a {
+                    color: black !important;
+                }
+
+                .first {
+                    width: 100%;
+                    height: 740px;
+                    background-image: url("/images/backG.jpg");
+                }
+
+                #imageClipper {
+                    top: 175px;
+                    left: 330px;
+                    width: 510px;
+                    height: 410px;
+                    overflow: hidden;
+                    position: relative;
+                }
+
+                .two {
+                    /*the video*/
+                    position: absolute;
+                    left: -100px;
+                    width: 740px;
+                    height: 460px;
+                    top: -20px;
+                }
+
+                .three {
+                    text-align: center;
+                    color: white;
+                    font-family: 'Roboto Mono', monospace;
+                    height: 425px;
+                    background-color: #000000;
+                    border: 1px dashed #ddd;
+                }
+
+                h2 {
+                    top: 35%;
+                    width: 100%;
+                    font-size: 7em;
+                    font-family: 'Press Start 2P', cursive;
+                    text-shadow: 0 1px 0 hsl(174, 5%, 80%),
+
+                    0 2px 0 hsl(174, 5%, 75%),
+                    0 3px 0 hsl(174, 5%, 70%),
+                    0 4px 0 hsl(174, 5%, 66%),
+                    0 5px 0 hsl(174, 5%, 64%),
+                    0 6px 0 hsl(174, 5%, 62%),
+                    0 7px 0 hsl(174, 5%, 61%),
+                    0 8px 0 hsl(174, 5%, 60%),
+
+                    0 0 5px rgba(0, 0, 0, .05),
+                    0 1px 3px rgba(0, 0, 0, .2),
+                    0 3px 5px rgba(0, 0, 0, .2),
+                    0 5px 10px rgba(0, 0, 0, .2),
+                    0 10px 10px rgba(0, 0, 0, .2),
+                    0 20px 20px rgba(0, 0, 0, .3);
+                }
+
+                .four {
+                    text-align: center;
+                    width: 100%;
+                    background-image: url("/images/chex.png");
+                    bottom: 0;
+                    color: black;
+                    background-color: #000000;
+                    border: 1px dashed #ddd;
+                    padding-bottom: 70px;
+                }
+
+                .content {
+                    text-align: center;
+                    vertical-align: top;
+                    width: 200px;
+                    height: 310px;
+                    background-color: white;
+                    font-family: 'Press Start 2P', cursive;
+                    font-size: 12px;
+                    display: inline-block;
+                }
+
+                .content>p {
+                    font-family: 'Roboto Mono', monospace;
+                    font-size: 15px;
+                }
+
+
+                .content a {
+                    color: blue !important;
+                }
+
+
+                #six {
+                    left: 20px;
+                    color: black;
+                    text-align: center;
+                    display: inline-block;
+                    width: 100%;
+                    background-color: white;
+                }
+                /*media queries ------------------------------------------
+*/
+
+                @media screen and (max-width: 1550px) and (min-width: 1150px) {
+                    html,
+                    body {
+                        width: 100%;
+                        height: 100%;
+                        padding: 0px;
+                    }
+                }
+
+
+                @media screen and (max-width: 900px) and (min-width: 400px) {
+                    html,
+                    body {
+                        width: 100%;
+                        height: 100%;
+                        padding: 0px;
+                    }
+
+
+                    .first {
+                        width: 100%;
+                        height: 100%;
+                        left: 0;
+                        background-image: url("images/nLights.mp4");
+                    }
+
+
+                    #imageClipper {
+                        width: 110%;
+                        height: 75%;
+                        margin-left: -300px;
+                    }
+
+                    .two {
+                        width: 100%;
+                        height: 70%;
+                        padding: 0px;
+                    }
+
+                    .three {
+                        padding: 0px;
+                    }
+
+                    h2 {
+                        font-size: 5em;
+                    }
+                }
+
+
+                @media screen and (max-width: 550px) and (min-width: 400px) {
+
+                    h2 {
+                        font-size: 3em;
+                    }
+
+                    .first {
+                        width: 100%;
+                        height: 65%;
+                        left: 0;
+                        background-image: url("images/nLights.mp4");
+                    }
+                }
