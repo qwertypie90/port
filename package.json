@@ -19,7 +19,7 @@
   "homepage": "https://github.com/qwertypie90/port#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "nodemon": "^1.14.6",
     "path": "^0.12.7"
   }
